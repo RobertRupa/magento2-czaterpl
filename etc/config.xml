@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <czaterpl>
+            <general>
+                <enabled>0</enabled>
+                <domain>https://www.czater.pl/</domain>
+                <script>https://www.chater.biz/static/575/assets/modules/chat/js/chat.js</script>
+            </general>
+        </czaterpl>
+    </default>
+</config>

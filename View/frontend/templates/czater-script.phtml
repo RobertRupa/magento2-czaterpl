@@ -1,0 +1,12 @@
+<!-- Czater.pl -->
+<style><?= $block->getCSS(); ?></style>
+<script>
+    window.$czater = {
+        tok: "<?= $block->getToken(); ?>",
+        domain: "<?= $block->getDomain(); ?>",
+        login: <?= ($block->getLogin() ? '"'.$block->getLogin().'"' : 'undefined'); ?>,
+        email: <?= ($block->getEmail() ? '"'.$block->getEmail().'"' : 'undefined'); ?>,
+    };
+</script>
+<script src="<?= $block->getScript(); ?>" async></script>
+<!-- /Czater.pl -->
